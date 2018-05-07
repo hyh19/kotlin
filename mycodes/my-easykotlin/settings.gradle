@@ -1,0 +1,4 @@
+rootProject.name = 'my-easykotlin'
+include 'ch09'
+findProject(':ch09')?.name = 'easykotlin'
+
