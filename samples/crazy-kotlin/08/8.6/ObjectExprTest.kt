@@ -2,7 +2,7 @@
 
 /**
  * Description:<br>
- * ÍøÕ¾: <a href="http://www.crazyit.org">·è¿ñJavaÁªÃË</a><br>
+ * ç½‘ç«™: <a href="http://www.crazyit.org">ç–¯ç‹‚Javaè”ç›Ÿ</a><br>
  * Copyright (C), 2001-2018, Yeeku.H.Lee<br>
  * This program is protected by copyright laws.<br>
  * Program Name:<br>
@@ -18,48 +18,48 @@ abstract class Product(var price: Double){
 	abstract fun printInfo()
 }
 fun main(args: Array<String>) {
-	// Ö¸¶¨Ò»¸ö¸¸ÀàĞÍ£¨½Ó¿Ú£©µÄ¶ÔÏó±í´ïÊ½
+	// æŒ‡å®šä¸€ä¸ªçˆ¶ç±»å‹ï¼ˆæ¥å£ï¼‰çš„å¯¹è±¡è¡¨è¾¾å¼
 	var ob1 = object: Outputable{
-		// ÖØĞ´¸¸½Ó¿ÚÖĞµÄ³éÏó·½·¨
+		// é‡å†™çˆ¶æ¥å£ä¸­çš„æŠ½è±¡æ–¹æ³•
 		override fun output(msg: String){
 			for(i in 1..6){
 				println("<h${i}>${msg}</h${i}>")
 			}
 		}
 	}
-	ob1.output("·è¿ñÈí¼ş½ÌÓıÖĞĞÄ")
+	ob1.output("ç–¯ç‹‚è½¯ä»¶æ•™è‚²ä¸­å¿ƒ")
 	println("-------------------------")
-	// Ö¸¶¨0¸ö¸¸ÀàĞÍµÄ¶ÔÏó±í´ïÊ½
+	// æŒ‡å®š0ä¸ªçˆ¶ç±»å‹çš„å¯¹è±¡è¡¨è¾¾å¼
 	var ob2 = object {
-		// ³õÊ¼»¯¿é
+		// åˆå§‹åŒ–å—
 		init{
-			println("³õÊ¼»¯¿é")
+			println("åˆå§‹åŒ–å—")
 		}
-		// ÊôĞÔ
+		// å±æ€§
 		var name = "Kotlin"
-		// ·½·¨
+		// æ–¹æ³•
 		fun test(){
-			println("test·½·¨")
+			println("testæ–¹æ³•")
 		}
-		// Ö»ÄÜ°üº¬ÄÚ²¿Àà£¬²»ÄÜ°üº¬Ç¶Ì×Àà
+		// åªèƒ½åŒ…å«å†…éƒ¨ç±»ï¼Œä¸èƒ½åŒ…å«åµŒå¥—ç±»
 		inner class Foo
 	}
 	println(ob2.name)
 	ob2.test()
 	println("-------------------------")
-	// Ö¸¶¨2¸ö¸¸ÀàĞÍµÄ¶ÔÏó±í´ïÊ½
-	// ÓÉÓÚProductÖ»ÓĞÒ»¸ö´ø²ÎÊıµÄ¹¹ÔìÆ÷£¬Òò´ËĞèÒª´«Èë¹¹ÔìÆ÷²ÎÊı
+	// æŒ‡å®š2ä¸ªçˆ¶ç±»å‹çš„å¯¹è±¡è¡¨è¾¾å¼
+	// ç”±äºProductåªæœ‰ä¸€ä¸ªå¸¦å‚æ•°çš„æ„é€ å™¨ï¼Œå› æ­¤éœ€è¦ä¼ å…¥æ„é€ å™¨å‚æ•°
 	var ob3 = object: Outputable, Product(28.8){
 		override fun output(msg: String){
-			println("Êä³öĞÅÏ¢£º" + msg)
+			println("è¾“å‡ºä¿¡æ¯ï¼š" + msg)
 		}
 		override val name: String
-			get() = "¼¤¹â´òÓ¡»ú"
+			get() = "æ¿€å…‰æ‰“å°æœº"
 		override fun printInfo(){
-			println("¸ßËÙ¼¤¹â´òÓ¡»ú£¬Ö§³Ö×Ô¶¯Ë«Ãæ´òÓ¡£¡")
+			println("é«˜é€Ÿæ¿€å…‰æ‰“å°æœºï¼Œæ”¯æŒè‡ªåŠ¨åŒé¢æ‰“å°ï¼")
 		}
 	}
 	println(ob3.name)
-	ob3.output("KotlinÕæ²»´í£¡")
+	ob3.output("KotlinçœŸä¸é”™ï¼")
 	ob3.printInfo()
 }
