@@ -2,7 +2,7 @@
 
 /**
  * Description:<br>
- * ÍøÕ¾: <a href="http://www.crazyit.org">·è¿ñJavaÁªÃË</a><br>
+ * ç½‘ç«™: <a href="http://www.crazyit.org">ç–¯ç‹‚Javaè”ç›Ÿ</a><br>
  * Copyright (C), 2001-2018, Yeeku.H.Lee<br>
  * This program is protected by copyright laws.<br>
  * Program Name:<br>
@@ -15,10 +15,10 @@ fun main(args: Array<String>) {
 	var a = 20
 	var obj = object {
 		fun change(){
-			println("change()·½·¨ĞŞ¸Ä±äÁ¿aµÄÖµ")
+			println("change()æ–¹æ³•ä¿®æ”¹å˜é‡açš„å€¼")
 			a++
 		}
 	}
 	obj.change()
-	println(a) // Êä³ö21
+	println(a) // è¾“å‡º21
 }

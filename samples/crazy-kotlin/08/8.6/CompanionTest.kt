@@ -2,7 +2,7 @@
 
 /**
  * Description:<br>
- * ÍøÕ¾: <a href="http://www.crazyit.org">·è¿ñJavaÁªÃË</a><br>
+ * ç½‘ç«™: <a href="http://www.crazyit.org">ç–¯ç‹‚Javaè”ç›Ÿ</a><br>
  * Copyright (C), 2001-2018, Yeeku.H.Lee<br>
  * This program is protected by copyright laws.<br>
  * Program Name:<br>
@@ -14,10 +14,10 @@ interface Outputable{
 	fun output(msg: String)
 }
 class MyClass{
-	// Ê¹ÓÃcompanionĞŞÊÎµÄ°éÉú¶ÔÏó
+	// ä½¿ç”¨companionä¿®é¥°çš„ä¼´ç”Ÿå¯¹è±¡
 	companion object MyObject1: Outputable{
-		val name = "nameÊôĞÔÖµ"
-		// ÖØĞ´¸¸½Ó¿ÚÖĞµÄ³éÏó·½·¨
+		val name = "nameå±æ€§å€¼"
+		// é‡å†™çˆ¶æ¥å£ä¸­çš„æŠ½è±¡æ–¹æ³•
 		override fun output(msg: String){
 			for(i in 1..6){
 				println("<h${i}>${msg}</h${i}>")
@@ -26,7 +26,7 @@ class MyClass{
 	}
 }
 fun main(args: Array<String>) {
-	// Ê¹ÓÃ°éÉú¶ÔÏóËùÔÚµÄÀàµ÷ÓÃ°éÉú¶ÔÏóµÄ³ÉÔ±
+	// ä½¿ç”¨ä¼´ç”Ÿå¯¹è±¡æ‰€åœ¨çš„ç±»è°ƒç”¨ä¼´ç”Ÿå¯¹è±¡çš„æˆå‘˜
 	MyClass.output("fkit.org")
 	println(MyClass.name)
 }

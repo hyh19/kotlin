@@ -2,7 +2,7 @@
 
 /**
  * Description:<br>
- * ÍøÕ¾: <a href="http://www.crazyit.org">·è¿ñJavaÁªÃË</a><br>
+ * ç½‘ç«™: <a href="http://www.crazyit.org">ç–¯ç‹‚Javaè”ç›Ÿ</a><br>
  * Copyright (C), 2001-2018, Yeeku.H.Lee<br>
  * This program is protected by copyright laws.<br>
  * Program Name:<br>
@@ -14,10 +14,10 @@ interface Outputable{
 	fun output(msg: String)
 }
 class MyClass{
-	// Ê¹ÓÃcompanionĞŞÊÎµÄ°éÉú¶ÔÏó
+	// ä½¿ç”¨companionä¿®é¥°çš„ä¼´ç”Ÿå¯¹è±¡
 	companion object: Outputable{
-		val name = "nameÊôĞÔÖµ"
-		// ÖØĞ´¸¸½Ó¿ÚÖĞµÄ³éÏó·½·¨
+		val name = "nameå±æ€§å€¼"
+		// é‡å†™çˆ¶æ¥å£ä¸­çš„æŠ½è±¡æ–¹æ³•
 		override fun output(msg: String){
 			for(i in 1..6){
 				println("<h${i}>${msg}</h${i}>")
@@ -25,17 +25,17 @@ class MyClass{
 		}
 	}
 }
-// Îª°éÉú¶ÔÏóÀ©Õ¹·½·¨
+// ä¸ºä¼´ç”Ÿå¯¹è±¡æ‰©å±•æ–¹æ³•
 fun MyClass.Companion.test(){
-	println("Îª°éÉú¶ÔÏóÀ©Õ¹µÄ·½·¨")
+	println("ä¸ºä¼´ç”Ÿå¯¹è±¡æ‰©å±•çš„æ–¹æ³•")
 }
 val MyClass.Companion.foo
-	get() = "Îª°éÉú¶ÔÏóÀ©Õ¹µÄÊôĞÔ"
+	get() = "ä¸ºä¼´ç”Ÿå¯¹è±¡æ‰©å±•çš„å±æ€§"
 fun main(args: Array<String>) {
-	// Ê¹ÓÃ°éÉú¶ÔÏóËùÔÚµÄÀàµ÷ÓÃ°éÉú¶ÔÏóµÄ³ÉÔ±
+	// ä½¿ç”¨ä¼´ç”Ÿå¯¹è±¡æ‰€åœ¨çš„ç±»è°ƒç”¨ä¼´ç”Ÿå¯¹è±¡çš„æˆå‘˜
 	MyClass.output("fkit.org")
 	println(MyClass.name)
-	// Í¨¹ı°éÉú¶ÔÏóËùÔÚµÄÀàµ÷ÓÃÎª°éÉú¶ÔÏóÀ©Õ¹µÄ³ÉÔ±
+	// é€šè¿‡ä¼´ç”Ÿå¯¹è±¡æ‰€åœ¨çš„ç±»è°ƒç”¨ä¸ºä¼´ç”Ÿå¯¹è±¡æ‰©å±•çš„æˆå‘˜
 	MyClass.test()
 	println(MyClass.foo)
 }
