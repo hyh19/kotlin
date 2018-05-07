@@ -21,7 +21,7 @@ class MyClass {
     }
 }
 
-// 为伴生对象扩展方法
+// 扩展伴生对象的方法
 fun MyClass.Companion.test() {
     println("dog")
 }
