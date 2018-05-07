@@ -2,7 +2,7 @@
 
 /**
  * Description:<br>
- * ÍøÕ¾: <a href="http://www.crazyit.org">·è¿ñJavaÁªÃË</a><br>
+ * ç½‘ç«™: <a href="http://www.crazyit.org">ç–¯ç‹‚Javaè”ç›Ÿ</a><br>
  * Copyright (C), 2001-2018, Yeeku.H.Lee<br>
  * This program is protected by copyright laws.<br>
  * Program Name:<br>
@@ -24,17 +24,17 @@ class ObjectExprType{
 		val name: String = "fkjava.org"
 	}
 	fun test(){
-		// ob1ÊÇprivate¶ÔÏó±í´ïÊ½£¬±àÒëÆ÷¿ÉÊ¶±ğËüµÄÕæÊµÀàĞÍ
-		// ÏÂÃæ´úÂëÕıÈ·
+		// ob1æ˜¯privateå¯¹è±¡è¡¨è¾¾å¼ï¼Œç¼–è¯‘å™¨å¯è¯†åˆ«å®ƒçš„çœŸå®ç±»å‹
+		// ä¸‹é¢ä»£ç æ­£ç¡®
 		println(ob1.name)
-		// ob2ÊÇ·Çprivate¶ÔÏó±í´ïÊ½£¬±àÒëÆ÷µ±ËüÊÇAnyÀàĞÍ
-		// ÏÂÃæ´úÂë´íÎó
+		// ob2æ˜¯éprivateå¯¹è±¡è¡¨è¾¾å¼ï¼Œç¼–è¯‘å™¨å½“å®ƒæ˜¯Anyç±»å‹
+		// ä¸‹é¢ä»£ç é”™è¯¯
 //		println(ob2.name)
-		// privateBarÊÇprivateº¯Êı£¬±àÒëÆ÷¿ÉÊ¶±ğËü·µ»ØµÄ¶ÔÏó±í´ïÊ½µÄÕæÊµÀàĞÍ
-		// ÏÂÃæ´úÂëÕıÈ·
+		// privateBaræ˜¯privateå‡½æ•°ï¼Œç¼–è¯‘å™¨å¯è¯†åˆ«å®ƒè¿”å›çš„å¯¹è±¡è¡¨è¾¾å¼çš„çœŸå®ç±»å‹
+		// ä¸‹é¢ä»£ç æ­£ç¡®
 		println(privateBar().name)
-		// publicBarÊÇ·Çprivateº¯Êı£¬±àÒëÆ÷½«Ëü·µ»ØµÄ¶ÔÏó±í´ïÊ½µ±³ÉAnyÀàĞÍ
-		// ÏÂÃæ´úÂë´íÎó
+		// publicBaræ˜¯éprivateå‡½æ•°ï¼Œç¼–è¯‘å™¨å°†å®ƒè¿”å›çš„å¯¹è±¡è¡¨è¾¾å¼å½“æˆAnyç±»å‹
+		// ä¸‹é¢ä»£ç é”™è¯¯
 //		println(publicBar().name)
 	}
 }
