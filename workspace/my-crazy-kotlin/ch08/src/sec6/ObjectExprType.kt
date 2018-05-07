@@ -1,7 +1,7 @@
 package sec6
 
 /**
- * 8.6.1 对象表达式
+ * 8.6.1 对象表达式的两种类型
  */
 class ObjectExprType {
 
