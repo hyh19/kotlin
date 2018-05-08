@@ -6,10 +6,10 @@ import kotlinx.coroutines.experimental.launch
 import java.util.concurrent.TimeUnit
 
 /**
- * Created by yuhuihuang on 2018/5/7.
+ * 9.2.2 简单协程示例
  */
 
-fun firstCoroutineDemo0() {
+fun firstCoroutine() {
     launch(CommonPool) {
         delay(3000L, TimeUnit.MILLISECONDS)
         println("Hello,")
@@ -19,5 +19,5 @@ fun firstCoroutineDemo0() {
 }
 
 fun main(args: Array<String>) {
-    firstCoroutineDemo0()
+    firstCoroutine()
 }
