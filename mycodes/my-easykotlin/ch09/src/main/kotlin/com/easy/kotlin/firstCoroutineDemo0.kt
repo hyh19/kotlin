@@ -6,7 +6,7 @@ import kotlinx.coroutines.experimental.launch
 import java.util.concurrent.TimeUnit
 
 /**
- * Created by yuhuihuang on 2018/5/7.
+ * 9.2.2 简单协程示例
  */
 
 fun firstCoroutineDemo0() {
