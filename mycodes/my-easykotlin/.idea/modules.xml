@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/easykotlin.iml" filepath="$PROJECT_DIR$/.idea/modules/easykotlin.iml" group="easykotlin" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ch09/easykotlin.iml" filepath="$PROJECT_DIR$/.idea/modules/ch09/easykotlin.iml" group="easykotlin" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/ch09/easykotlin_main.iml" filepath="$PROJECT_DIR$/.idea/modules/ch09/easykotlin_main.iml" group="easykotlin" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/ch09/easykotlin_test.iml" filepath="$PROJECT_DIR$/.idea/modules/ch09/easykotlin_test.iml" group="easykotlin" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/my-easykotlin.iml" filepath="$PROJECT_DIR$/.idea/modules/my-easykotlin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/my-easykotlin.iml" filepath="$PROJECT_DIR$/my-easykotlin.iml" />
     </modules>
   </component>
 </project>
