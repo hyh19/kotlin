@@ -10,19 +10,19 @@ import java.util.concurrent.TimeUnit
  * 9.2.5 挂起函数
  */
 
-suspend fun runCoroutineDemo() {
+suspend fun suspendFun() {
     run(CommonPool) {
         delay(3000L, TimeUnit.MILLISECONDS)
-        println("suspend,")
+        println("apple")
     }
-    println("runCoroutineDemo!")
     Thread.sleep(5000L)
+    println("banana")
 }
 
 fun callSuspendFun() {
     // 启动一个协程
     launch(CommonPool) {
-        runCoroutineDemo()
+        suspendFun()
     }
     // 不要让主线程那么快结束
     Thread.sleep(10000L)

@@ -9,7 +9,7 @@ import java.util.concurrent.TimeUnit
  * 9.2.2 简单协程示例
  */
 
-fun firstCoroutineDemo0() {
+fun firstCoroutine() {
     launch(CommonPool) {
         delay(3000L, TimeUnit.MILLISECONDS)
         println("Hello,")
@@ -19,5 +19,5 @@ fun firstCoroutineDemo0() {
 }
 
 fun main(args: Array<String>) {
-    firstCoroutineDemo0()
+    firstCoroutine()
 }

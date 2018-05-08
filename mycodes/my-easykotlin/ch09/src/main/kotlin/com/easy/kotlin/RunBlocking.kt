@@ -8,7 +8,6 @@ import kotlinx.coroutines.experimental.runBlocking
 /**
  * 9.2.6 runBlocking 函数
  */
-
 fun main(args: Array<String>) = runBlocking {
     println("T0")
     launch(CommonPool) {
