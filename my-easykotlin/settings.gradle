@@ -1,0 +1,4 @@
+rootProject.name = 'easykotlin'
+include 'ch07'
+include 'ch09'
+
