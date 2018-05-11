@@ -1,4 +1,4 @@
-rootProject.name = 'my-easykotlin'
+rootProject.name = 'easykotlin'
+include 'ch07'
 include 'ch09'
-findProject(':ch09')?.name = 'easykotlin'
 

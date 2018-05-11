@@ -2,10 +2,13 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ch09/easykotlin.iml" filepath="$PROJECT_DIR$/.idea/modules/ch09/easykotlin.iml" group="easykotlin" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ch09/easykotlin_main.iml" filepath="$PROJECT_DIR$/.idea/modules/ch09/easykotlin_main.iml" group="easykotlin" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ch09/easykotlin_test.iml" filepath="$PROJECT_DIR$/.idea/modules/ch09/easykotlin_test.iml" group="easykotlin" />
-      <module fileurl="file://$PROJECT_DIR$/my-easykotlin.iml" filepath="$PROJECT_DIR$/my-easykotlin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ch07.iml" filepath="$PROJECT_DIR$/.idea/modules/ch07.iml" group="ch07" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ch07/ch07_main.iml" filepath="$PROJECT_DIR$/.idea/modules/ch07/ch07_main.iml" group="ch07" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ch07/ch07_test.iml" filepath="$PROJECT_DIR$/.idea/modules/ch07/ch07_test.iml" group="ch07" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ch09.iml" filepath="$PROJECT_DIR$/.idea/modules/ch09.iml" group="ch09" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ch09/ch09_main.iml" filepath="$PROJECT_DIR$/.idea/modules/ch09/ch09_main.iml" group="ch09" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ch09/ch09_test.iml" filepath="$PROJECT_DIR$/.idea/modules/ch09/ch09_test.iml" group="ch09" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/easykotlin.iml" filepath="$PROJECT_DIR$/.idea/modules/easykotlin.iml" />
     </modules>
   </component>
 </project>

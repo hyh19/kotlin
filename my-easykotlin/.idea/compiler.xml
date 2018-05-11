@@ -2,8 +2,10 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <bytecodeTargetLevel>
-      <module name="easykotlin_main" target="1.8" />
-      <module name="easykotlin_test" target="1.8" />
+      <module name="ch07_main" target="1.8" />
+      <module name="ch07_test" target="1.8" />
+      <module name="ch09_main" target="1.8" />
+      <module name="ch09_test" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
