@@ -4,6 +4,7 @@
     <exclude-output />
     <content url="file://$MODULE_DIR$/../../ch07">
       <sourceFolder url="file://$MODULE_DIR$/../../ch07/source/main/kotlin" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../ch07/source/main/resources" type="java-resource" />
       <excludeFolder url="file://$MODULE_DIR$/../../ch07/.gradle" />
       <excludeFolder url="file://$MODULE_DIR$/../../ch07/build" />
     </content>
