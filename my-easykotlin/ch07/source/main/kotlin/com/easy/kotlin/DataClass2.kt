@@ -48,7 +48,7 @@ fun main(args: Array<String>) {
     rose.toString()
 
     val helen = User("Helen", "Female", 15)
-    // 自动生成 ComponentN
+    // 自动生成 ComponentN，数据类的解构。
     val (name, gender, age) = helen
     println("$name, $gender, $age years of age")
 }
